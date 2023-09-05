@@ -1,5 +1,5 @@
 {
-  "homepage": "https://Dhiman1241.github.io/task1-react",
+  "homepage": "https://dhiman1241.github.io/task1-react",
   "name": "customer",
   "version": "0.1.0",
   "private": true,
@@ -14,9 +14,9 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
